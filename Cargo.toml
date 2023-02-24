@@ -4,9 +4,12 @@ authors = ["Matthew J Perez <matt@mperez.io>"]
 version = "0.1.0"
 edition = "2021"
 repository = "https://github.com/mattjperez/carver"
-description = "bug reducer"
+description = "An LSP-based reducer for bug minimization and discovery"
 license = "MIT OR Apache-2.0"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+anyhow = "1.0.69"
+serde = "1.0.152"
+serde_json = "1.0.93"
